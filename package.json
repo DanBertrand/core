@@ -1,24 +1,13 @@
 {
-  "name": "core",
+  "name": "borabora-core",
   "version": "0.1.0",
   "private": true,
-  "main": "src/index.tsx",
-  "module": "src/index.tsx",
   "dependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.4.0",
     "@sentry/react": "^6.17.4",
     "@sentry/tracing": "^6.17.4",
-    "dayjs": "^1.10.7"
-  },
-  "scripts": {
-    "start": "craco start",
-    "build": "react-scripts build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "version": "yarn info core"
+    "dayjs": "^1.10.7",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "@craco/craco": "^6.4.3",
